@@ -20,16 +20,18 @@ public class Ejercicio26 {
      */
     public static void main(String[] args) {
         
+        int cifras, cifra1, cifra2, cifra3, cifra4;
+        
         Scanner entrada = new Scanner(System.in);
         
         System.out.println("Elabora un numero de cuatro cifras");
         
-        int cifras = entrada.nextInt();
+        cifras = entrada.nextInt();
         
-        int cifra1 = cifras / 1000;
-        int cifra2 = cifras % 1000 / 100;
-        int cifra3 = cifras % 1000 % 100 / 10;
-        int cifra4 = cifras % 1000 % 100 % 10 / 1;
+        cifra1 = cifras / 1000;
+        cifra2 = cifras % 1000 / 100;
+        cifra3 = cifras % 1000 % 100 / 10;
+        cifra4 = cifras % 1000 % 100 % 10 / 1;
         
         System.out.println("tu primera cifra es: " + cifra1);
         System.out.println("tu segunda cifra es: " + cifra2);

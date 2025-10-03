@@ -16,37 +16,40 @@ public class Ejercicio24 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("introduce la nota de programacion");
+        
+        float programacion, marcas, datos, desarrollo, informaticos, laboral, notaMedia;
         
         Scanner entrada = new Scanner (System.in);
         
-        float programacion = entrada.nextFloat();
+        System.out.println("introduce la nota de programacion");
+        
+        programacion = entrada.nextFloat();
         
         System.out.println("nota de lenguaje de marcas");
         
-        float marcas = entrada.nextFloat();
+        marcas = entrada.nextFloat();
         
         System.out.println("nota de base de datos");
         
-        float datos = entrada.nextFloat();
+        datos = entrada.nextFloat();
         
         System.out.println("nota entorno de desarrollo");
         
-        float desarrollo = entrada.nextFloat();
+        desarrollo = entrada.nextFloat();
         
         System.out.println("nota sistemas informaticos");
         
-        float informaticos = entrada.nextFloat();
+        informaticos = entrada.nextFloat();
         
         System.out.println("nota formacion y orientacion laboral");
         
-        float laboral = entrada.nextFloat();
+        laboral = entrada.nextFloat();
         
-        int Asignaturas = 6;
+        int asignaturas = 6;
         
-        float NotaMedia = laboral + informaticos + desarrollo + datos + marcas + programacion / Asignaturas;
+        notaMedia = (laboral + informaticos + desarrollo + datos + marcas + programacion) / asignaturas;
         
-        System.out.println("Su nota media es de " + NotaMedia);
+        System.out.println("Su nota media es de " + notaMedia);
         
         
     }

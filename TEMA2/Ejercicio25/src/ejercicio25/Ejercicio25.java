@@ -16,25 +16,28 @@ public class Ejercicio25 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        int num1, num2, num3, suma, producto;
+        
         System.out.println("introduce el primer numero");
         
         Scanner entrada = new Scanner (System.in);
         
-        int num1 = entrada.nextInt();
+        num1 = entrada.nextInt();
         
         System.out.println("introduce el segundo numero");
         
-        int num2 = entrada.nextInt();
+        num2 = entrada.nextInt();
         
         System.out.println("introduce el tercer numero");
         
-        int num3 = entrada.nextInt();
+        num3 = entrada.nextInt();
         
-        int suma =  num1 + num2 + num3;
+        suma =  num1 + num2 + num3;
         
         System.out.println("la suma de los numero es: " + suma);
         
-        int producto = num1 * num2 * num3;
+        producto = num1 * num2 * num3;
                 
         System.out.println("el producto de los numeros es: " + producto);
 

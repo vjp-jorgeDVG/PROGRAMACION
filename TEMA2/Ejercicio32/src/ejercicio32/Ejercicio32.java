@@ -26,17 +26,23 @@ public class Ejercicio32 {
         
         
         int billetes50 = total / 50; 
-        int restante = total % 50;        
+        int restante = total % 50; 
+        
         int billetes20 = restante / 20;   
-        int restante2 = restante % 20;
-        int billetes10 = restante2 / 10;
-        int restante3 = restante2 % 10;
-        int billete5 = restante3 / 5;
-        int restante4 = restante3 % 5;
-        int monedas2 = restante4 / 2;
-        int restante5 = restante4 % 2;
-        int monedas1 = restante5 /1;
-        int restante6 = restante5 % 1;
+        restante = restante % 20;
+        
+        int billetes10 = restante / 10;
+        restante = restante % 10;
+        
+        int billete5 = restante / 5;
+        restante = restante % 5;
+        
+        int monedas2 = restante / 2;
+        restante = restante % 2;
+        
+        int monedas1 = restante /1;
+       
+        
         
         System.out.println("tienes: " + billetes50 + " billetes de 50 euros");
         System.out.println("tienes: " + billetes20 + " billetes de 20 euros");
