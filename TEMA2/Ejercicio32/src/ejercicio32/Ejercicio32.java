@@ -17,6 +17,8 @@ public class Ejercicio32 {
      */
     public static void main(String[] args) {
         
+        int billetes50, billetes20, billetes10, billetes5, monedas2, monedas1, restante;
+        
         Scanner entrada = new Scanner (System.in);
         
         System.out.println("Por favor, introduzca una cantidad de dinero");
@@ -25,29 +27,29 @@ public class Ejercicio32 {
         int total = entrada.nextInt();
         
         
-        int billetes50 = total / 50; 
-        int restante = total % 50; 
+        billetes50 = total / 50; 
+        restante = total % 50; 
         
-        int billetes20 = restante / 20;   
+        billetes20 = restante / 20;   
         restante = restante % 20;
         
-        int billetes10 = restante / 10;
+        billetes10 = restante / 10;
         restante = restante % 10;
         
-        int billete5 = restante / 5;
+        billetes5 = restante / 5;
         restante = restante % 5;
         
-        int monedas2 = restante / 2;
+        monedas2 = restante / 2;
         restante = restante % 2;
         
-        int monedas1 = restante /1;
+        monedas1 = restante /1;
        
         
         
         System.out.println("tienes: " + billetes50 + " billetes de 50 euros");
         System.out.println("tienes: " + billetes20 + " billetes de 20 euros");
         System.out.println("tienes: " + billetes10 + " billetes de 10 euros");
-        System.out.println("tienes: " + billete5 + " billetes de 5 euros");
+        System.out.println("tienes: " + billetes5 + " billetes de 5 euros");
         System.out.println("tienes: " + monedas2 + " monedas de 2 euros");
         System.out.println("tienes: " + monedas1 + " monedas de 1 euro");
         
