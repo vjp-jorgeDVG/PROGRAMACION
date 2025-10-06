@@ -19,15 +19,15 @@ public class Ejercicio1 {
         
         Scanner entrada = new Scanner (System.in);
        
-        System.out.println("introduce un numero");
+        System.out.println("Por favor, introduce un número");
         
-        int num1 = entrada.nextInt();
-        int cero;
+        int num = entrada.nextInt();
         
-        if (num1 >= 0) {
-            System.out.println("numero positivo");
-        
-        else (num1 <= 0) {
-        System.out.println("numero negativo";
+        if (num >= 0) {
+            System.out.println("El numero introducido es positivo");
+        }
+        else {
+            System.out.println("El mumero introducido es negativo");
+        }
         }
 }
