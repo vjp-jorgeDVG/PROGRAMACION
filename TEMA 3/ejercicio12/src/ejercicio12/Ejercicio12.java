@@ -15,12 +15,13 @@ public class Ejercicio12 {
      */
     public static void main(String[] args) {
         int num1 = 11;
-        int num2 = 133;
+        int num2 = 133;     
         
         do {
             System.out.print (num1+1 + " ");
-            num1 += 2;
-        }while (num1<num2);
+            num1 = num1+2;
+        }
+        while (num1<num2);
     }
 }
     

@@ -16,9 +16,11 @@ public class Ejercicio14 {
     public static void main(String[] args) {
         System.out.println("100 primeros numeros pares ");
         
-        for (int i = 0; i <= 100; i=i+2) {
-            System.out.print(" " + i);
+        int numero;
+        
+        for (numero = 0; numero < 200; numero=numero+2) {
+            System.out.print(" " + numero);
         }
     }
-    }
+}
 
