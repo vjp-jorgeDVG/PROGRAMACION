@@ -19,12 +19,12 @@ public class Ejercicio16 {
         int contador = 0;
         
         do {
-            System.out.print (num1+1 + " - ");
-            num1 += 2;
-            
+            System.out.print (num1 % 2 != 0);
+
             contador++;
             
-        }while (num1<num2);
+        }
+        while (num1<num2);
         
         
         System.out.println("la cantidad de numeros impares es: " + contador);
