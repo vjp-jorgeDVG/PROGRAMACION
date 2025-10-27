@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ejercicio01;
-import ejercicio01.metodos;
 /**
  *
  * @author jorge
@@ -17,27 +16,27 @@ public static void main(String[] args) {
         
     Scanner entrada = new Scanner(System.in);
 
-    System.out.print("introduce el primer numero");
+    System.out.println("introduce el primer numero");
         
     num1 = entrada.nextInt();
 
-    System.out.print("introduce el segundo número: ");
+    System.out.println("introduce el segundo número: ");
         
     num2 = entrada.nextInt();
 
         if (num1 > 10) {
             
-        resultado = metodos.multiplicar(num1, num2);
+        resultado = prueba.multiplicar(num1, num2);
         multiplicacion = resultado;
         } 
         
         else {
             
-        resultado = metodos.sumar(num1, num2);
+        resultado = prueba.sumar(num1, num2);
         suma = resultado;
         }
             
-        System.out.println("el seultado de tu operacion es " + resultado);
+        System.out.println("el resultado de tu operacion es " + resultado);
     }
 }
 

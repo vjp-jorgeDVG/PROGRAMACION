@@ -3,13 +3,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package ejercicio01;
-import ejercicio01.metodos;
 /**
  *
  * @author alumno
  */
 
 import java.util.Scanner;
+public class Ejercicio01 {
 public static void main(String[] args) {
 
         int numero;
@@ -20,9 +20,10 @@ public static void main(String[] args) {
         
         numero = entrada.nextInt();
 
-        metodos.metodo(numero);
+        prueba.metodo(numero);
         
+    }
 }
-    
+
     
 

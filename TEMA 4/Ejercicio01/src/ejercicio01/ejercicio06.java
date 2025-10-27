@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ejercicio01;
-import ejercicio01.metodos;
+import ejercicio01.prueba;
 /**
  *
  * @author jorge
@@ -14,14 +14,15 @@ public class ejercicio06 {
 
 public static void main(String[] args) {
 
-    int nota;
+    int nota3;
     
     Scanner entrada = new Scanner(System.in);
 
     System.out.print("introduce tu nota: ");
     
-    nota = entrada.nextInt();
-
-    metodos.nota(nota);
+    nota3 = entrada.nextInt();
+    
+    prueba.nota2(nota3);
+    
     }
 }

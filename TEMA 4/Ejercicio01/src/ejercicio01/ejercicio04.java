@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package ejercicio01;
-import ejercicio01.metodos;
 /**
  *
  * @author jorge
@@ -19,20 +18,20 @@ public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.print("introduce un numero");
+        System.out.println("introduce un numero ");
         
         num1 = entrada.nextInt();
 
-        System.out.print("introduce otro numero");
+        System.out.println("introduce otro numero ");
         
         num2 = entrada.nextInt();
 
-        System.out.print("introduce el ultimo numero");
+        System.out.println("introduce el ultimo numero ");
         
         num3 = entrada.nextInt();
 
-        metodos.elMenor(num1, num2, num3, num3, menor) {
+        prueba.elMenor(num1, num2, num3, num3);
     
         }
     }
-}
+
