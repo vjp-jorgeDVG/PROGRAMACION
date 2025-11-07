@@ -26,18 +26,18 @@ public class metodo {
             
             if (n % i == 0) {
                 enc = true;
-                System.out.println("el numero no es primo");
             }
             else {
                 i++;
-            }
-            if (!enc) {
-                System.out.println("tu numero es primo");
-            }   
-            else {
-                
-            }
+            }         
         }
+        
+        if (!enc) {
+            System.out.println("tu numero es primo");
+        } else {
+            System.out.println("el numero no es primo");
+        }
+        
         return enc;
     }
 }
