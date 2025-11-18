@@ -38,10 +38,9 @@ public class Tema5Teoria {
         System.out.println(tuCoche);
         System.out.println(tuCoche.getRuedas());
         
+        //MODIFICADORES DE ACCESO BICICLETA
         
-        
-        
-        
+        //PASO DE PARAMETROS POR VALOR O POR REFERENCIA   
     }
     
 }
