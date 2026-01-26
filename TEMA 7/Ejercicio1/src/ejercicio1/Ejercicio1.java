@@ -58,5 +58,5 @@ public class Ejercicio1 {
             System.out.print("No se introdujeron números pares.");
         }
         System.out.println(); // Salto de línea final
-    }
+    }   
 }

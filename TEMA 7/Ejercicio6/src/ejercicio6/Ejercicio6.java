@@ -15,7 +15,7 @@ public class Ejercicio6 {
      */
     public static void main(String[] args) {
         // Declaramos un array para los 80 números primos según la fuente
-        int[][] primos = new int [8][10];
+        int[] primos = new int [80];
 
         // 1. Método para rellenar el array con los primeros 80 primos
         rellenarPrimos(primos);
@@ -45,8 +45,12 @@ public class Ejercicio6 {
      * Un número es primo si solo es divisible por 1 y por sí mismo.
      */
     public static boolean esPrimo(int n) {
-        if (n < 1) return false;
-        if (n == 1) return true; // Se incluye el 1 siguiendo el ejemplo  -> 1 de la fuente
+        if (n < 1) {
+            return false;
+        }
+        if (n == 1) {
+            return true;
+        } // Se incluye el 1 siguiendo el ejemplo  -> 1 de la fuente
         
         for (int i = 2; i <= Math.sqrt(n); i++) {
             if (n % i == 0) {
