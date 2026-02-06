@@ -41,7 +41,7 @@ public class Ejercicio01 {
 
         // Llamada al método que calcula la media y muestra el resultado
         double mediaFinal = calcularMedia(misAsignaturas);
-        System.out.println("\nLa nota media del curso es de: " + mediaFinal);
+        System.out.println("La nota media del curso es de: " + mediaFinal);
     }
 
     /**

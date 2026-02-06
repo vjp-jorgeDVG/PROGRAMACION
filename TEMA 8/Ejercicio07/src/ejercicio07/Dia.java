@@ -15,8 +15,8 @@ public class Dia {
     
     //constructores
     public Dia(String nombreDia, int temperatura) {
-        this.nombreDia = nombreDia;
-        this.temperatura = temperatura;
+        this.nombreDia = "";
+        this.temperatura = 0;
     }
     // Métodos getter y setter obligatorios [1]
     public String getNombreDia() {
