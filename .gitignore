@@ -124,6 +124,7 @@ replay_pid*
 /TEMA 8/ejercicio6/nbproject/private/
 /TEMA 8/ejercicio6/build/
 /tema 3-3/ejercicio5/build/
+<<<<<<< Updated upstream
 /tema 3-3/Ejercicio10/nbproject/private/
 /tema 3-3/Ejercicio10/build/
 /tema 3-3/Ejercicio11/nbproject/private/
@@ -144,3 +145,9 @@ replay_pid*
 /tema 3-3/SumaPrimos/nbproject/
 /tema 3-3/SumaPrimos/target/
 /tema 3-3/Ejercicio23/build/
+=======
+/tema 3-3/Ejercicio9/nbproject/private/
+/tema 3-3/Ejercicio9/build/
+/tema 3-3/ejercicio6/nbproject/private/
+/tema 3-3/ejercicio6/build/
+>>>>>>> Stashed changes

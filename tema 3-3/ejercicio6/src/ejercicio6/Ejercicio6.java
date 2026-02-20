@@ -17,6 +17,7 @@ public class Ejercicio6 {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("introduce tu nota del 1 al 10");
         int num = sc.nextInt();
 
