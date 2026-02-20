@@ -15,15 +15,14 @@ public class Ejercicio16 {
      */
     public static void main(String[] args) {
         int num = 20;
-        int num2;
+        int num2 = 0;
         do {
             num++;
-            if (num % 2 == 0) {
-            } else {
+            if (num % 2 != 0) {
                 System.out.print(num + " - ");
+                num2++;
             }
-            
         } while (num < 160);
-        
+        System.out.print("\nla cantidad de numeros impares es de: " + num2);
     }
 }

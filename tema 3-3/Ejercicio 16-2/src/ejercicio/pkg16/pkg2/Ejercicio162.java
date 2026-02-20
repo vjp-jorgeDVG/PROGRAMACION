@@ -2,26 +2,28 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package ejercicio14;
+package ejercicio.pkg16.pkg2;
 
 /**
  *
- * @author jorge
+ * @author alumno
  */
-public class Ejercicio14 {
+public class Ejercicio162 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int num = 0;
-        int contPares = 0;
-        while (contPares <= 100) {
-            if (num % 2 == 0) {
-                System.out.println(num);
-              
-            }
+        int num = 20;
+        int num2 = 0;
+        while (num < 160) {
             num++;
+            if (num % 2 != 0) {
+                System.out.print(num + " - ");
+                num2++;
+            }
         }
+        System.out.println("\nla cantidad de numeros impares es de: " + num2);
     }
+
 }
