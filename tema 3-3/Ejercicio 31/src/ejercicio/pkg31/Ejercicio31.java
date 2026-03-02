@@ -17,15 +17,18 @@ public class Ejercicio31 {
 
         int impares = 0;
         int random = 0;
+        int impar1, impar2, impar3;
 
         while (impares < 3) {
 
             impares = (int) (Math.random() * 100) + 1;
-            
+
             random++;
-            
+
             if (random % 2 != 0) {
+                System.out.println(random);
                 impares++;
+                
             }
         }
         System.out.println(impares);
